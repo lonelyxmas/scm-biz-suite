@@ -179,7 +179,7 @@ For domain `pet hospital management`, generate:
 - `name`: kebab-case plus `-service`, such as `pet-hospital-service`.
 - `cfg_mask_china_mobile`: always `false`.
 - `data_service`: always `sqlite`.
-- `org`: default `doublechaintech`.
+- `org`: default `example`.
 - `_module_key`: always `root`.
 
 Example shape:
@@ -191,7 +191,7 @@ Example shape:
       english_name="Pet Hospital Management"
       data_service="sqlite"
       name="pet-hospital-service"
-      org="doublechaintech"
+      org="example"
       _module_key="root">
 </root>
 ```

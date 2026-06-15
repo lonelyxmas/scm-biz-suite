@@ -13,7 +13,7 @@ Use this checklist before delivering or generating code from a KSML model.
 - `chinese_name` is domain-specific.
 - `name` is kebab-case ending in `-service`.
 - `data_service="sqlite"`.
-- `org="doublechaintech"`.
+- `org="example"`.
 - `_module_key="root"`.
 
 ## Structure
