@@ -8,10 +8,10 @@ def update_file(path):
         content = f.read()
 
     # Update cargo-teaql versions
-    content = re.sub(r'cargo-teaql` version `[0-9\.]+`', r'cargo-teaql` version `2.0.1`', content)
-    content = re.sub(r'cargo-teaql >= [0-9\.]+', r'cargo-teaql >= 2.0.1', content)
-    content = re.sub(r'cargo-teaql 0\.2\.0', r'cargo-teaql 2.0.1', content)
-    content = re.sub(r'cargo-teaql` `[0-9\.]+`', r'cargo-teaql` `2.0.1`', content)
+    content = re.sub(r'cargo-teaql` version `[0-9\.]+`', r'cargo-teaql` version `2.0.2`', content)
+    content = re.sub(r'cargo-teaql >= [0-9\.]+', r'cargo-teaql >= 2.0.2', content)
+    content = re.sub(r'cargo-teaql 0\.2\.0', r'cargo-teaql 2.0.2', content)
+    content = re.sub(r'cargo-teaql` `[0-9\.]+`', r'cargo-teaql` `2.0.2`', content)
 
     with open(path, 'w', encoding='utf-8') as f:
         f.write(content)
